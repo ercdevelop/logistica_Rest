@@ -1,0 +1,26 @@
+Sistema Logística Interna Wall Mart
+===================================
+- Versão 1.0.0
+
+Ferramentas
+============
+ - Maven 3.0.5
+ - Dijkstra Algorithm - (colocado como dependência do projeto através do site http://psjava.org/algo/Dijkstra_Algorithm);
+ - Java 1.7
+ - Aplication Server Jetty 9
+ - 
+
+Execucao
+========
+
+ 
+
+Utilizacao
+==========
+
+ 
+
+Motivacao para Adocao das Tecnologias
+=======================================
+ 
+
