@@ -1,34 +1,53 @@
 package br.com.malhaLogistica.Entity;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonInclude;
 
-@JsonInclude(JsonInclude.Include.NON_EMPTY)
-@JsonIgnoreProperties(ignoreUnknown = true)
+ 
 public class RotaMalhaLogistica {
 
-    private DestinoMalhaLogistica origem;
-    private DestinoMalhaLogistica destino;
+    private CidadeMalhaLogistica cidadeMalha;
     private Double distancia;
+    private long id;
+
     
-	public DestinoMalhaLogistica getOrigem() {
-		return origem;
-	}
-	public void setOrigem(DestinoMalhaLogistica origem) {
-		this.origem = origem;
-	}
-	public DestinoMalhaLogistica getDestino() {
-		return destino;
-	}
-	public void setDestino(DestinoMalhaLogistica destino) {
-		this.destino = destino;
-	}
+    public RotaMalhaLogistica(){
+    	
+    }
+    
+ public RotaMalhaLogistica(String origem, String destino,Double distancia, long id){
+    	cidadeMalha = new CidadeMalhaLogistica();
+	 	this.cidadeMalha.setCidadeDestino(destino);
+	 	this.cidadeMalha.setCidadeOrigem(origem);
+	 	this.id = id;
+	 	this.distancia =distancia;
+    }
+    
+    
+    
+	 
 	public Double getDistancia() {
 		return distancia;
 	}
 	public void setDistancia(Double distancia) {
 		this.distancia = distancia;
 	}
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public CidadeMalhaLogistica getCidadeMalha() {
+		return cidadeMalha;
+	}
+
+	public void setCidadeMalha(CidadeMalhaLogistica cidadeMalha) {
+		this.cidadeMalha = cidadeMalha;
+	}
+	
+	
 
     
 }

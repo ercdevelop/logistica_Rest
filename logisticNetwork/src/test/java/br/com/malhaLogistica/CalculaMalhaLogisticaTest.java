@@ -9,7 +9,12 @@ import org.psjava.goods.GoodDijkstraAlgorithm;
 
 public class CalculaMalhaLogisticaTest {
 	
-	
+	/**
+	 * Classe utilizada somente para ilustrar a utilização da 
+	 * API psJava que armazena o DijkstraAlgorithm
+	 * 
+	 * @param args
+	 */
 	
 	public static void main(String[] args) {
 		

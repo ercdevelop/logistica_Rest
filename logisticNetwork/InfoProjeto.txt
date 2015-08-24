@@ -1,26 +1,30 @@
-Sistema Logística Interna Wall Mart
-===================================
+SISTEMA DE LOGÍSTICA 
 - Versão 1.0.0
 
-Ferramentas
-============
+FERRAMENTAS
  - Maven 3.0.5
  - Dijkstra Algorithm - (colocado como dependência do projeto através do site http://psjava.org/algo/Dijkstra_Algorithm);
  - Java 1.7
- - Aplication Server Jetty 9
- - 
+ - Apllication server grizzly 2.3.3
+ - jaxws 2.2.5
+ - XStream 1.4.6
+ - JERSEY 2.5
 
-Execucao
-========
-
+ORIENTAÇÕES A RESPEITO DO PROJETO
+ 	- Baixar o projeto no gitHub através da url https://github.com/ercdevelop/logistica_Rest.git
+ 	- Utilizar o maven, pois os artefatos foram todos configurados no pom.xml 
  
 
-Utilizacao
-==========
 
- 
-
-Motivacao para Adocao das Tecnologias
-=======================================
+MOTIVAÇÃO PARA UTILIZAÇÃO DAS FERRAMENTAS
+	- XSTREAM - é uma API extremamente eficiente para transformar objetos Java em XML, e o inverso
+				também confere. A facilidade de utilização também foi um fator preponderante.
+	- JAX RS -  Escolhi para esse projeto trabalhar com o protocolo REST ao invés do SOAP, 
+				é uma especificação que foca nas URIs e no protocolo HTTP.
+	- GRIZZLY - Servidor de aplicação utilizado para a fase inicial do projeto. Mais leve e compatível
+				com JAX-RS. 
+	- JERSEY - É compatível com GRIZZLY E JAX RS e implementa todas as características da arquitetura
+			   REST.
+	
  
 
