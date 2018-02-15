@@ -8,8 +8,8 @@ public class TesteGit03 {
 		
 		System.out.println("Teste branch");
 		
-		if(eqTrue || false){
-			System.out.println("False também");
+		if(eqTrue || true){
+			System.out.println("True False");
 		}
 	}
 
