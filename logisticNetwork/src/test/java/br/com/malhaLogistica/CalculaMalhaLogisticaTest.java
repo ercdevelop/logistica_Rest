@@ -27,6 +27,7 @@ public class CalculaMalhaLogisticaTest {
 		graph.insertVertex("A");
 		graph.insertVertex("B");
 		graph.insertVertex("C");
+		/* ateração aqui */
 		graph.insertVertex("D");
 		graph.addEdge("A", "C", dist1);
 		graph.addEdge("B", "C", dist3);
