@@ -21,7 +21,6 @@ public class CalculaMalhaLogisticaTest {
 		IntegerNumberSystem NS = IntegerNumberSystem.getInstance();
 		
 		Integer dist1 = new Integer(100);
-		Integer dist2 = new Integer(10);
 		Integer dist3 = new Integer(20);
 		
 		MutableDirectedWeightedGraph<String,Integer> graph = MutableDirectedWeightedGraph.create();
@@ -30,7 +29,6 @@ public class CalculaMalhaLogisticaTest {
 		graph.insertVertex("C");
 		graph.insertVertex("D");
 		graph.addEdge("A", "C", dist1);
-		graph.addEdge("A", "B", dist2);
 		graph.addEdge("B", "C", dist3);
 		
 		
